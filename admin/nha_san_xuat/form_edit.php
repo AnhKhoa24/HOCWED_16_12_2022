@@ -19,7 +19,7 @@
     ?>
     <h2>CẬP NHẬT THÔNG TIN</h2>
     <form method="post" action="process_update.php">
-        <input type="hidden" name="id" value="<?php echo $id ?>">
+        <input type="hidden" name="id" value="<?php echo $arr1st['id'] ?>">
         <br>
         TÊN
         <input type="text" name="name" value="<?php echo $arr1st['name'] ?>">
@@ -38,9 +38,9 @@
 
 
 
-
+        
     </form>
-
+        
 
 </body>
 
