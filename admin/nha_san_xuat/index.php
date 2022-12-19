@@ -58,7 +58,7 @@
         <?php endforeach ?>
     </table>
 
-
+    <?php mysqli_close($connect) ?>
 
 </body>
 
